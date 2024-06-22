@@ -1,0 +1,149 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 49572
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\0767\AppData\Local\Temp\\Katalon\Appium\Temp1706518224487
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:49572
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m42 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\0767\\Downloads\\kaf-debug.apk","noReset":false,"newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"192.168.78.104:5555","deviceName":"Genymobile Galaxy S10 (Android 12)","fullReset":true,"systemPort":49571},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\0767\\Downloads\\kaf-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Genymobile Galaxy S10 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platformName":"android","appium:platformVersion":"12","appium:systemPort":49571,"appium:udid":"192.168.78.104:5555"}]}}[39m
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m Session created with session id: e90c3e33-0a85-4db7-aad3-a8721137f23b
+[35m[BaseDriver][39m Using local app 'C:\Users\0767\Downloads\kaf-debug.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\0767\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/0767/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\0767\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 192.168.78.104:5555
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\0767\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'id.indocyber.kaf.mma'
+[35m[ADB][39m Main activity name: 'id.indocyber.kaf.mma.MainActivity'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\0767\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'C:\Users\0767\Downloads\kaf-debug.apk' is signed with a non-default certificate
+[35m[ADB][39m id.indocyber.kaf.mma was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\0767\Downloads\kaf-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'kaf-debug.apk' took 4588ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'id.indocyber.kaf.mma/id.indocyber.kaf.mma.MainActivity and waiting for 'id.indocyber.kaf.mma/id.indocyber.kaf.mma.MainActivity'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session e90c3e33-0a85-4db7-aad3-a8721137f23b added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m51092 ms - 1205[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b [39m[32m200[39m [90m425 ms - 1159[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b [39m[32m200[39m [90m52 ms - 1159[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m196 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts [39m[32m200[39m [90m3096 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/appium/device/system_bars [39m[32m200[39m [90m1911 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/execute/sync[39m
+[35m[HTTP][39m [90m{"script":"mobile:viewportRect","args":[]}[39m
+[35m[AndroidDriver][39m Executing native command 'mobile:viewportRect'
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/execute/sync [39m[31m500[39m [90m1003 ms - 1840[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts [39m[32m200[39m [90m605 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/window/rect [39m[31m500[39m [90m750 ms - 1273[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/timeouts [39m[32m200[39m [90m63 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context [39m[32m200[39m [90m55 ms - 22[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/contexts[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/contexts [39m[32m200[39m [90m1104 ms - 24[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context [39m[32m200[39m [90m10 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/screenshot [39m[31m500[39m [90m106 ms - 1062[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context[39m
+[35m[HTTP][39m [90m{"name":"NATIVE_APP"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/e90c3e33-0a85-4db7-aad3-a8721137f23b/context [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m127 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"C:\\Users\\0767\\Downloads\\kaf-debug.apk","noReset":false,"newCommandTimeout":1800,"platformVersion":"12","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"192.168.78.104:5555","deviceName":"Genymobile Galaxy S10 (Android 12)","fullReset":true,"systemPort":49823},"capabilities":{"firstMatch":[{"appium:app":"C:\\Users\\0767\\Downloads\\kaf-debug.apk","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"Genymobile Galaxy S10 (Android 12)","appium:fullReset":true,"appium:newCommandTimeout":1800,"appium:noReset":false,"platformName":"android","appium:platformVersion":"12","appium:systemPort":49823,"appium:udid":"192.168.78.104:5555"}]}}[39m
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m Session created with session id: 7743fb65-aac9-419c-80b3-f980b2a8e47b
+[35m[BaseDriver][39m Using local app 'C:\Users\0767\Downloads\kaf-debug.apk'
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\0767\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: 192.168.78.104:5555
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\0767\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'id.indocyber.kaf.mma'
+[35m[ADB][39m Main activity name: 'id.indocyber.kaf.mma.MainActivity'
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m id.indocyber.kaf.mma was successfully uninstalled
+[35m[ADB][39m The application at 'C:\Users\0767\Downloads\kaf-debug.apk' will not be cached, because the device under test has confirmed the support of streamed installs
+[35m[ADB][39m The installation of 'kaf-debug.apk' took 2547ms
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\0767\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'id.indocyber.kaf.mma/id.indocyber.kaf.mma.MainActivity and waiting for 'id.indocyber.kaf.mma/id.indocyber.kaf.mma.MainActivity'
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[WD Proxy][39m socket hang up
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: Could not proxy command to the remote server. Original error: socket hang up
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 shell am force-stop id.indocyber.kaf.mma' exited with code 20'; Command output: cmd: Can't find service: activity
+[35m[UiAutomator2][39m 
+[35m[ADB][39m id.indocyber.kaf.mma was not uninstalled, because it was not present on the device
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'e90c3e33-0a85-4db7-aad3-a8721137f23b' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[ADB][39m id.indocyber.kaf.mma was not uninstalled, because it was not present on the device
+[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 forward --remove tcp\:49571' exited with code 1'; Command output: adb.exe: error: listener 'tcp:49571' not found
+[35m[UiAutomator2][39m 
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Mobile" time="95.244" tests="2" failures="0" errors="0">
+   <testsuite name="Test Mobile" tests="2" failures="0" errors="0" time="95.244" skipped="0" timestamp="20-02-2024T22:15:43" hostname="0767 - DESKTOP-SQ56SGT" id="Test Suites/Test Mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (SM-N971N - Android 7.1.2)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531"/>
+         <property name="logFiles" value="C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\appium.log, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\appium_error.log, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442203816.png, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442214634.png, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442220405.png, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442236411.png, C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442238718.png"/>
+         <property name="hostName" value="0767 - DESKTOP-SQ56SGT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-N971N"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (SM-N971N - Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Login" time="71.06" classname="Test Cases/Login" status="PASSED">
+         <system-out><![CDATA[20-02-2024T22:15:44 - [TEST_CASE][PASSED] - Test Cases/Login: Test Cases/Login
+
+20-02-2024T22:15:44 - [TEST_STEP][PASSED] - startApplication("C:\Users\0767\Downloads\kaf-debug.apk", true): Started app at: 'C:\Users\0767\Downloads\kaf-debug.apk'
+
+20-02-2024T22:15:44 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+20-02-2024T22:15:49 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+20-02-2024T22:15:49 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0767\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+20-02-2024T22:15:49 - [MESSAGE][INFO] - appium outlog: C:\Users\0767\Katalon Studio\BelajarMobile\Reports\20240220_221531\Test Mobile\20240220_221531\appium.log
+
+20-02-2024T22:15:49 - [MESSAGE][INFO] - appium errlog: C:\Users\0767\Katalon Studio\BelajarMobile\Reports\20240220_221531\Test Mobile\20240220_221531\appium_error.log
+
+20-02-2024T22:15:51 - [MESSAGE][INFO] - Appium server started on port 59,151
+
+20-02-2024T22:16:32 - [MESSAGE][INFO] - Failed to get OS statusbar's information using getSystemBar.
+
+20-02-2024T22:16:32 - [MESSAGE][PASSED] - Started app at: 'C:\Users\0767\Downloads\kaf-debug.apk'
+
+20-02-2024T22:16:32 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+20-02-2024T22:16:35 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+20-02-2024T22:16:35 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText'
+
+20-02-2024T22:16:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText'
+
+20-02-2024T22:16:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText"), "receptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText'
+
+20-02-2024T22:16:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:36 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText'
+
+20-02-2024T22:16:36 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+20-02-2024T22:16:38 - [MESSAGE][PASSED] - Keyboard is hidden
+
+20-02-2024T22:16:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+20-02-2024T22:16:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+20-02-2024T22:16:39 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (1)"), "R3cept!#888", 0): Text 'R3cept!#888' has been set to element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+20-02-2024T22:16:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:40 - [MESSAGE][PASSED] - Text 'R3cept!#888' has been set to element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+20-02-2024T22:16:40 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+20-02-2024T22:16:41 - [MESSAGE][PASSED] - Keyboard is hidden
+
+20-02-2024T22:16:41 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T22:16:43 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T22:16:43 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+20-02-2024T22:16:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442203816.png]]
+
+20-02-2024T22:16:44 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.Button"), 0): Tapped on element 'Object Repository/Mobile/android.widget.Button'
+
+20-02-2024T22:16:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.Button'
+
+20-02-2024T22:16:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+20-02-2024T22:16:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+20-02-2024T22:16:54 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+20-02-2024T22:16:55 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442214634.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Add Project" time="23.928" classname="Test Cases/Add Project" status="PASSED">
+         <system-out><![CDATA[20-02-2024T22:16:55 - [TEST_CASE][PASSED] - Test Cases/Add Project: Test Cases/Add Project
+
+20-02-2024T22:16:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView'
+
+20-02-2024T22:16:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView'
+
+20-02-2024T22:16:55 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View"), 0): Tapped on element 'Object Repository/Mobile/android.view.View'
+
+20-02-2024T22:16:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:16:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View'
+
+20-02-2024T22:16:58 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T22:17:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T22:17:00 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+20-02-2024T22:17:00 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442220405.png]]
+
+20-02-2024T22:17:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (1)'
+
+20-02-2024T22:17:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (1)'
+
+20-02-2024T22:17:00 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (2)'
+
+20-02-2024T22:17:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (2)'
+
+20-02-2024T22:17:07 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View (1)"), 0): Tapped on element 'Object Repository/Mobile/android.view.View (1)'
+
+20-02-2024T22:17:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View (1)'
+
+20-02-2024T22:17:08 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (2)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+20-02-2024T22:17:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+20-02-2024T22:17:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (2)"), "IGLO", 0): Text 'IGLO' has been set to element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+20-02-2024T22:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:09 - [MESSAGE][PASSED] - Text 'IGLO' has been set to element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+20-02-2024T22:17:09 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (3)'
+
+20-02-2024T22:17:09 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:10 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (3)'
+
+20-02-2024T22:17:10 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View (2)"), 0): Tapped on element 'Object Repository/Mobile/android.view.View (2)'
+
+20-02-2024T22:17:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View (2)'
+
+20-02-2024T22:17:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (3)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+20-02-2024T22:17:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+20-02-2024T22:17:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (3)"), "receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+20-02-2024T22:17:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:12 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+20-02-2024T22:17:12 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+20-02-2024T22:17:14 - [MESSAGE][PASSED] - Keyboard is hidden
+
+20-02-2024T22:17:14 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T22:17:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T22:17:16 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+20-02-2024T22:17:16 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442236411.png]]
+
+20-02-2024T22:17:16 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.Button (1)'
+
+20-02-2024T22:17:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+20-02-2024T22:17:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.Button (1)'
+
+20-02-2024T22:17:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+20-02-2024T22:17:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+20-02-2024T22:17:18 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+20-02-2024T22:17:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\Katalon Studio\\BelajarMobile\\Reports\\20240220_221531\\Test Mobile\\20240220_221531\\1708442238718.png]]
+
+20-02-2024T22:17:18 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+20-02-2024T22:17:19 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[20-02-2024T22:15:43 - [TEST_SUITE][PASSED] - Test Mobile: Test Cases/Add Project]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
