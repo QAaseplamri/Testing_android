@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing Level Up,,,,24-06-2024 09:56:00,24-06-2024 09:57:54,1m - 53.878s,FAILED
+,,,,,,,
+Test Cases/Android Level Up/TC_Login,,,,24-06-2024 09:56:01,24-06-2024 09:56:29,28.745s,PASSED
+"startExistingApplication(""id.indocyber.level_up"")",,,,24-06-2024 09:56:01,24-06-2024 09:56:22,21.327s,PASSED
+"waitForElementPresent(findTestObject(""field_Username""), 5)",,,,24-06-2024 09:56:22,24-06-2024 09:56:23,0.912s,PASSED
+"setText(findTestObject(""Object Repository/field_Username""), ""administrator"", 0)",,,,24-06-2024 09:56:23,24-06-2024 09:56:23,0.213s,PASSED
+hideKeyboard(),,,,24-06-2024 09:56:23,24-06-2024 09:56:26,2.044s,PASSED
+"waitForElementPresent(findTestObject(""field_Password""), 5)",,,,24-06-2024 09:56:26,24-06-2024 09:56:26,0.554s,PASSED
+"clearText(findTestObject(""field_Password""), 5)",,,,24-06-2024 09:56:26,24-06-2024 09:56:26,0.114s,PASSED
+"setText(findTestObject(""Object Repository/field_Password""), """", 0)",,,,24-06-2024 09:56:26,24-06-2024 09:56:26,0.143s,PASSED
+hideKeyboard(),,,,24-06-2024 09:56:26,24-06-2024 09:56:28,1.760s,PASSED
+"tap(findTestObject(""Object Repository/button_Login""), 0)",,,,24-06-2024 09:56:28,24-06-2024 09:56:29,0.575s,PASSED
+"waitForElementPresent(findTestObject(""Object Repository/VerifyLoginSuccess""), 30)",,,,24-06-2024 09:56:29,24-06-2024 09:56:29,0.574s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/VerifyLoginSuccess""), 0)",,,,24-06-2024 09:56:29,24-06-2024 09:56:29,0.115s,PASSED
+,,,,,,,
+Test Cases/Android Level Up/Sales Order,,,,24-06-2024 09:57:33,24-06-2024 09:57:54,21.388s,FAILED
+"startApplication(""C:\Users\0767\Downloads\app-debug.apk"", true)",,,,24-06-2024 09:57:33,24-06-2024 09:57:54,21.348s,FAILED

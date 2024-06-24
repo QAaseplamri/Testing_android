@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Mobile" time="93.455" tests="2" failures="0" errors="0">
+   <testsuite name="Test Mobile" tests="2" failures="0" errors="0" time="93.455" skipped="0" timestamp="22-06-2024T21:26:20" hostname="0767 - DESKTOP-SQ56SGT" id="Test Suites/KAF/Test Mobile">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (SM-N971N - Android 7.1.2)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610"/>
+         <property name="logFiles" value="C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\appium.log, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\appium_error.log, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066437877.png, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066450637.png, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066457167.png, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066470149.png, C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066472912.png"/>
+         <property name="hostName" value="0767 - DESKTOP-SQ56SGT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-N971N"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (SM-N971N - Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/KAF/Login" time="72.143" classname="Test Cases/KAF/Login" status="PASSED">
+         <system-out><![CDATA[22-06-2024T21:26:20 - [TEST_CASE][PASSED] - Test Cases/KAF/Login: Test Cases/KAF/Login
+
+22-06-2024T21:26:20 - [TEST_STEP][PASSED] - startApplication("C:\Users\0767\Downloads\kaf-debug.apk", true): Started application: 'C:\Users\0767\Downloads\kaf-debug.apk'
+
+22-06-2024T21:26:21 - [MESSAGE][INFO] - Starting application: 'C:\Users\0767\Downloads\kaf-debug.apk'
+
+22-06-2024T21:26:22 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+22-06-2024T21:26:26 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+22-06-2024T21:26:26 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0767\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+22-06-2024T21:26:26 - [MESSAGE][INFO] - appium outlog: C:\Users\0767\git\Testing_android\Testing_android\Reports\20240622_212610\KAF\Test Mobile\20240622_212610\appium.log
+
+22-06-2024T21:26:26 - [MESSAGE][INFO] - appium errlog: C:\Users\0767\git\Testing_android\Testing_android\Reports\20240622_212610\KAF\Test Mobile\20240622_212610\appium_error.log
+
+22-06-2024T21:26:28 - [MESSAGE][INFO] - Appium server started on port 55,681
+
+22-06-2024T21:27:03 - [MESSAGE][INFO] - Failed to get OS statusbar's information using getSystemBar.
+
+22-06-2024T21:27:03 - [MESSAGE][PASSED] - Started application: 'C:\Users\0767\Downloads\kaf-debug.apk'
+
+22-06-2024T21:27:03 - [TEST_STEP][PASSED] - delay(3): Delayed 3 second(s)
+
+22-06-2024T21:27:06 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+22-06-2024T21:27:06 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText'
+
+22-06-2024T21:27:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText'
+
+22-06-2024T21:27:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText"), "receptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText'
+
+22-06-2024T21:27:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:08 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText'
+
+22-06-2024T21:27:08 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+22-06-2024T21:27:11 - [MESSAGE][PASSED] - Keyboard is hidden
+
+22-06-2024T21:27:11 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+22-06-2024T21:27:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:12 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+22-06-2024T21:27:12 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (1)"), "R3cept!#888", 0): Text 'R3cept!#888' has been set to element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+22-06-2024T21:27:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:13 - [MESSAGE][PASSED] - Text 'R3cept!#888' has been set to element 'Object Repository/Mobile/android.widget.EditText (1)'
+
+22-06-2024T21:27:13 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+22-06-2024T21:27:15 - [MESSAGE][PASSED] - Keyboard is hidden
+
+22-06-2024T21:27:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-06-2024T21:27:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-06-2024T21:27:17 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+22-06-2024T21:27:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066437877.png]]
+
+22-06-2024T21:27:20 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.Button"), 0): Tapped on element 'Object Repository/Mobile/android.widget.Button'
+
+22-06-2024T21:27:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:20 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.Button'
+
+22-06-2024T21:27:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+22-06-2024T21:27:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+22-06-2024T21:27:30 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+22-06-2024T21:27:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066450637.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/KAF/Add Project" time="21.04" classname="Test Cases/KAF/Add Project" status="PASSED">
+         <system-out><![CDATA[22-06-2024T21:27:32 - [TEST_CASE][PASSED] - Test Cases/KAF/Add Project: Test Cases/KAF/Add Project
+
+22-06-2024T21:27:32 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView'
+
+22-06-2024T21:27:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView'
+
+22-06-2024T21:27:33 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View"), 0): Tapped on element 'Object Repository/Mobile/android.view.View'
+
+22-06-2024T21:27:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View'
+
+22-06-2024T21:27:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-06-2024T21:27:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-06-2024T21:27:37 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+22-06-2024T21:27:37 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066457167.png]]
+
+22-06-2024T21:27:37 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (1)'
+
+22-06-2024T21:27:37 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (1)'
+
+22-06-2024T21:27:38 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (2)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (2)'
+
+22-06-2024T21:27:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (2)'
+
+22-06-2024T21:27:39 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View (1)"), 0): Tapped on element 'Object Repository/Mobile/android.view.View (1)'
+
+22-06-2024T21:27:39 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View (1)'
+
+22-06-2024T21:27:40 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (2)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+22-06-2024T21:27:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:41 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+22-06-2024T21:27:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (2)"), "IGLO", 0): Text 'IGLO' has been set to element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+22-06-2024T21:27:41 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:42 - [MESSAGE][PASSED] - Text 'IGLO' has been set to element 'Object Repository/Mobile/android.widget.EditText (2)'
+
+22-06-2024T21:27:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.ImageView (3)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.ImageView (3)'
+
+22-06-2024T21:27:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:42 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.ImageView (3)'
+
+22-06-2024T21:27:42 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.view.View (2)"), 0): Tapped on element 'Object Repository/Mobile/android.view.View (2)'
+
+22-06-2024T21:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.view.View (2)'
+
+22-06-2024T21:27:43 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.EditText (3)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+22-06-2024T21:27:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+22-06-2024T21:27:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Mobile/android.widget.EditText (3)"), "receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id", 0): Text 'receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+22-06-2024T21:27:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:45 - [MESSAGE][PASSED] - Text 'receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id' has been set to element 'Object Repository/Mobile/android.widget.EditText (3)'
+
+22-06-2024T21:27:45 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+22-06-2024T21:27:48 - [MESSAGE][PASSED] - Keyboard is hidden
+
+22-06-2024T21:27:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-06-2024T21:27:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-06-2024T21:27:50 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+22-06-2024T21:27:50 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066470149.png]]
+
+22-06-2024T21:27:50 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/Mobile/android.widget.Button (1)"), 0): Tapped on element 'Object Repository/Mobile/android.widget.Button (1)'
+
+22-06-2024T21:27:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+22-06-2024T21:27:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/android.widget.Button (1)'
+
+22-06-2024T21:27:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+22-06-2024T21:27:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+22-06-2024T21:27:52 - [TEST_STEP][PASSED] - takeScreenshot(): Screenshot is taken
+
+22-06-2024T21:27:53 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\\Users\\0767\\git\\Testing_android\\Testing_android\\Reports\\20240622_212610\\KAF\\Test Mobile\\20240622_212610\\1719066472912.png]]
+
+22-06-2024T21:27:53 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+22-06-2024T21:27:53 - [MESSAGE][PASSED] - Press back button successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-06-2024T21:26:20 - [TEST_SUITE][PASSED] - Test Mobile: Test Cases/KAF/Add Project]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

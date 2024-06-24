@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="37.682" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="37.682" skipped="0" timestamp="24-06-2024T11:01:29" hostname="0767 - DESKTOP-SQ56SGT" id="Test Suites/Level Up/Login">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (SM-S908N - Android 7.1.2)"/>
+         <property name="devicePlatform" value="Android"/>
+         <property name="logFolder" value="C:\\Users\\0767\\git\\Testing_android\\Reports\\20240624_110117\\Level Up\\Login\\20240624_110117"/>
+         <property name="logFiles" value="C:\\Users\\0767\\git\\Testing_android\\Reports\\20240624_110117\\Level Up\\Login\\20240624_110117\\appium.log, C:\\Users\\0767\\git\\Testing_android\\Reports\\20240624_110117\\Level Up\\Login\\20240624_110117\\appium_error.log, C:\\Users\\0767\\git\\Testing_android\\Reports\\20240624_110117\\Level Up\\Login\\20240624_110117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="0767 - DESKTOP-SQ56SGT"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="SM-S908N"/>
+         <property name="hostAddress" value="172.16.0.2"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (SM-S908N - Android 7.1.2)"/>
+         <property name="deviceOSVersion" value="7.1.2"/>
+      </properties>
+      <testcase name="Test Cases/Android Level Up/TC_Login" time="37.471" classname="Test Cases/Android Level Up/TC_Login" status="PASSED">
+         <system-out><![CDATA[24-06-2024T11:01:29 - [TEST_CASE][PASSED] - Test Cases/Android Level Up/TC_Login: Test Cases/Android Level Up/TC_Login
+
+24-06-2024T11:01:29 - [TEST_STEP][PASSED] - startExistingApplication("id.indocyber.level_up"): Starting application with Id: 'id.indocyber.level_up'
+
+24-06-2024T11:01:30 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+24-06-2024T11:01:35 - [MESSAGE][INFO] - PATH: C:\Program Files\nodejs;
+
+24-06-2024T11:01:35 - [MESSAGE][INFO] - APPIUM_HOME: C:\Users\0767\AppData\Roaming\npm\node_modules\appium\build\lib\main.js
+
+24-06-2024T11:01:35 - [MESSAGE][INFO] - appium outlog: C:\Users\0767\git\Testing_android\Reports\20240624_110117\Level Up\Login\20240624_110117\appium.log
+
+24-06-2024T11:01:35 - [MESSAGE][INFO] - appium errlog: C:\Users\0767\git\Testing_android\Reports\20240624_110117\Level Up\Login\20240624_110117\appium_error.log
+
+24-06-2024T11:01:36 - [MESSAGE][INFO] - Appium server started on port 51,780
+
+24-06-2024T11:01:47 - [MESSAGE][INFO] - Failed to get OS statusbar's information using getSystemBar.
+
+24-06-2024T11:01:48 - [MESSAGE][PASSED] - Starting application with Id: 'id.indocyber.level_up'
+
+24-06-2024T11:01:48 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("field_Username"), 5): Object Object Repository/field_Username not found
+
+24-06-2024T11:01:53 - [MESSAGE][WARNING] - Object Object Repository/field_Username not found
+
+24-06-2024T11:01:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/field_Username"), "administrator", 0): Text 'administrator' has been set to element 'Object Repository/field_Username'
+
+24-06-2024T11:01:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-06-2024T11:01:59 - [MESSAGE][PASSED] - Text 'administrator' has been set to element 'Object Repository/field_Username'
+
+24-06-2024T11:01:59 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+24-06-2024T11:02:01 - [MESSAGE][PASSED] - Keyboard is hidden
+
+24-06-2024T11:02:01 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("field_Password"), 5): Element 'Object Repository/field_Password' is present
+
+24-06-2024T11:02:02 - [MESSAGE][PASSED] - Element 'Object Repository/field_Password' is present
+
+24-06-2024T11:02:02 - [TEST_STEP][PASSED] - clearText(findTestObject("field_Password"), 5): Element 'Object Repository/field_Password' text is cleared
+
+24-06-2024T11:02:02 - [MESSAGE][PASSED] - Element 'Object Repository/field_Password' text is cleared
+
+24-06-2024T11:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/field_Password"), "", 0): Text '' has been set to element 'Object Repository/field_Password'
+
+24-06-2024T11:02:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-06-2024T11:02:02 - [MESSAGE][PASSED] - Text '' has been set to element 'Object Repository/field_Password'
+
+24-06-2024T11:02:02 - [TEST_STEP][PASSED] - hideKeyboard(): Keyboard is hidden
+
+24-06-2024T11:02:04 - [MESSAGE][PASSED] - Keyboard is hidden
+
+24-06-2024T11:02:04 - [TEST_STEP][PASSED] - tap(findTestObject("Object Repository/button_Login"), 0): Tapped on element 'Object Repository/button_Login'
+
+24-06-2024T11:02:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-06-2024T11:02:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/button_Login'
+
+24-06-2024T11:02:05 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("Object Repository/VerifyLoginSuccess"), 30): Element 'Object Repository/VerifyLoginSuccess' is present
+
+24-06-2024T11:02:06 - [MESSAGE][PASSED] - Element 'Object Repository/VerifyLoginSuccess' is present
+
+24-06-2024T11:02:06 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/VerifyLoginSuccess"), 0): Element 'Object Repository/VerifyLoginSuccess' is visible
+
+24-06-2024T11:02:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+24-06-2024T11:02:06 - [MESSAGE][PASSED] - Element 'Object Repository/VerifyLoginSuccess' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[24-06-2024T11:01:29 - [TEST_SUITE][PASSED] - Login: Test Cases/Android Level Up/TC_Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

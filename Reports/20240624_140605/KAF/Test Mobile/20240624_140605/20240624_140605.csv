@@ -1,0 +1,39 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test Mobile,,,,24-06-2024 14:06:11,24-06-2024 14:07:33,1m - 22.257s,PASSED
+,,,,,,,
+Test Cases/KAF/Login,,,,24-06-2024 14:06:11,24-06-2024 14:07:14,1m - 3.522s,PASSED
+"startApplication(""C:\Users\0767\Downloads\kaf-debug.apk"", true)",,,,24-06-2024 14:06:11,24-06-2024 14:06:51,39.391s,PASSED
+delay(3),,,,24-06-2024 14:06:51,24-06-2024 14:06:54,3.187s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.EditText""), 0)",,,,24-06-2024 14:06:54,24-06-2024 14:06:55,0.684s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/android.widget.EditText""), ""receptionist@kaf.co.id"", 0)",,,,24-06-2024 14:06:55,24-06-2024 14:06:55,0.315s,PASSED
+hideKeyboard(),,,,24-06-2024 14:06:55,24-06-2024 14:06:57,2.524s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.EditText (1)""), 0)",,,,24-06-2024 14:06:57,24-06-2024 14:06:58,0.581s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/android.widget.EditText (1)""), ""R3cept!#888"", 0)",,,,24-06-2024 14:06:58,24-06-2024 14:06:59,0.739s,PASSED
+hideKeyboard(),,,,24-06-2024 14:06:59,24-06-2024 14:07:00,1.783s,PASSED
+delay(2),,,,24-06-2024 14:07:01,24-06-2024 14:07:03,2.005s,PASSED
+takeScreenshot(),,,,24-06-2024 14:07:03,24-06-2024 14:07:04,1.380s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.Button""), 0)",,,,24-06-2024 14:07:04,24-06-2024 14:07:04,0.086s,PASSED
+delay(10),,,,24-06-2024 14:07:04,24-06-2024 14:07:14,10.005s,PASSED
+takeScreenshot(),,,,24-06-2024 14:07:14,24-06-2024 14:07:14,0.347s,PASSED
+,,,,,,,
+Test Cases/KAF/Add Project,,,,24-06-2024 14:07:14,24-06-2024 14:07:33,18.458s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.ImageView""), 0)",,,,24-06-2024 14:07:14,24-06-2024 14:07:15,0.899s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.view.View""), 0)",,,,24-06-2024 14:07:15,24-06-2024 14:07:17,1.163s,PASSED
+delay(2),,,,24-06-2024 14:07:17,24-06-2024 14:07:19,2.004s,PASSED
+takeScreenshot(),,,,24-06-2024 14:07:19,24-06-2024 14:07:19,0.378s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.ImageView (1)""), 0)",,,,24-06-2024 14:07:19,24-06-2024 14:07:19,0.120s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.ImageView (2)""), 0)",,,,24-06-2024 14:07:19,24-06-2024 14:07:20,1.290s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.view.View (1)""), 0)",,,,24-06-2024 14:07:20,24-06-2024 14:07:21,0.826s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.EditText (2)""), 0)",,,,24-06-2024 14:07:21,24-06-2024 14:07:22,0.920s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/android.widget.EditText (2)""), ""IGLO"", 0)",,,,24-06-2024 14:07:22,24-06-2024 14:07:23,0.724s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.ImageView (3)""), 0)",,,,24-06-2024 14:07:23,24-06-2024 14:07:23,0.604s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.view.View (2)""), 0)",,,,24-06-2024 14:07:23,24-06-2024 14:07:24,0.821s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.EditText (3)""), 0)",,,,24-06-2024 14:07:24,24-06-2024 14:07:25,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Mobile/android.widget.EditText (3)""), ""receptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.idreceptionist@kaf.co.id"", 0)",,,,24-06-2024 14:07:25,24-06-2024 14:07:26,0.712s,PASSED
+hideKeyboard(),,,,24-06-2024 14:07:26,24-06-2024 14:07:28,1.786s,PASSED
+delay(2),,,,24-06-2024 14:07:28,24-06-2024 14:07:30,2.007s,PASSED
+takeScreenshot(),,,,24-06-2024 14:07:30,24-06-2024 14:07:30,0.337s,PASSED
+"tap(findTestObject(""Object Repository/Mobile/android.widget.Button (1)""), 0)",,,,24-06-2024 14:07:30,24-06-2024 14:07:30,0.100s,PASSED
+delay(2),,,,24-06-2024 14:07:30,24-06-2024 14:07:32,2.009s,PASSED
+takeScreenshot(),,,,24-06-2024 14:07:32,24-06-2024 14:07:33,0.664s,PASSED
+pressBack(),,,,24-06-2024 14:07:33,24-06-2024 14:07:33,0.077s,PASSED

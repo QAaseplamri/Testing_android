@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Testing Level Up,,,,24-06-2024 10:01:22,24-06-2024 10:03:05,1m - 42.575s,FAILED
+,,,,,,,
+Test Cases/Android Level Up/TC_Login,,,,24-06-2024 10:01:47,24-06-2024 10:01:51,4.296s,FAILED
+"startExistingApplication(""id.indocyber.level_up"")",,,,24-06-2024 10:01:47,24-06-2024 10:01:51,4.265s,FAILED
+,,,,,,,
+Test Cases/Android Level Up/Sales Order,,,,24-06-2024 10:02:46,24-06-2024 10:03:05,19.114s,FAILED
+"startApplication(""C:\Users\0767\Downloads\app-debug.apk"", true)",,,,24-06-2024 10:02:46,24-06-2024 10:03:05,19.080s,FAILED

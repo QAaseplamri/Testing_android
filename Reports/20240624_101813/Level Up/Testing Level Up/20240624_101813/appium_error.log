@@ -1,0 +1,31 @@
+[35m[AndroidDriver][39m Failed to parse navigation bar information.
+[35m[AndroidDriver][39m Cannot activate 'id.indocyber.level_up'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell monkey -p id.indocyber.level_up -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: java.lang.Exception: call exit callstack! status=-4
+[35m[AndroidDriver][39m 	at java.lang.System.exit(System.java:1418)
+[35m[AndroidDriver][39m 	at com.android.commands.monkey.Monkey.main(Monkey.java:486)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:290)
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m Failed to parse navigation bar information.
+[35m[AndroidDriver][39m Cannot activate 'id.indocyber.level_up'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell monkey -p id.indocyber.level_up -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: java.lang.Exception: call exit callstack! status=-4
+[35m[AndroidDriver][39m 	at java.lang.System.exit(System.java:1418)
+[35m[AndroidDriver][39m 	at com.android.commands.monkey.Monkey.main(Monkey.java:486)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:290)
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m Failed to parse navigation bar information.
+[35m[AndroidDriver][39m Cannot activate 'id.indocyber.level_up'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell monkey -p id.indocyber.level_up -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: java.lang.Exception: call exit callstack! status=-4
+[35m[AndroidDriver][39m 	at java.lang.System.exit(System.java:1418)
+[35m[AndroidDriver][39m 	at com.android.commands.monkey.Monkey.main(Monkey.java:486)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:290)
+[35m[AndroidDriver][39m 
+[35m[AndroidDriver][39m Failed to parse navigation bar information.
+[35m[AndroidDriver][39m Cannot activate 'id.indocyber.level_up'. Original error: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s emulator-5554 shell monkey -p id.indocyber.level_up -c android.intent.category.LAUNCHER 1' exited with code 252'; Command output: java.lang.Exception: call exit callstack! status=-4
+[35m[AndroidDriver][39m 	at java.lang.System.exit(System.java:1418)
+[35m[AndroidDriver][39m 	at com.android.commands.monkey.Monkey.main(Monkey.java:486)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.nativeFinishInit(Native Method)
+[35m[AndroidDriver][39m 	at com.android.internal.os.RuntimeInit.main(RuntimeInit.java:290)
+[35m[AndroidDriver][39m 
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[Logcat][39m Logcat terminated with code 0, signal null
+[35m[Logcat][39m Logcat terminated with code 0, signal null
