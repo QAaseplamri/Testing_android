@@ -2048,10 +2048,10 @@
 [35m[Appium][39m Removing session 'c09c6b73-f135-4a3c-96f1-9d4beebf1c4b' from our master session list
 [35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
 [35m[ADB][39m Error sending command, reconnecting device and retrying: shell,am,force-stop,com.android.settings
-[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 shell am force-stop com.android.settings' exited with code 1'; Command output: error: device '192.168.78.104:5555' not found
+[35m[UiAutomator2][39m Unable to force stop app: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 shell am force-stop com.android.settings' exited with code 1'; Command output: error: device '192.168.78.104:5555' not found
 [35m[UiAutomator2][39m 
 [35m[ADB][39m Error sending command, reconnecting device and retrying: forward,--remove,tcp:8264
-[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 forward --remove tcp\:8264' exited with code 1'; Command output: adb.exe: error: device '192.168.78.104:5555' not found
+[35m[UiAutomator2][39m Unable to remove system port forward: Error executing adbExec. Original error: 'Command 'C:\\Users\\0767\\.katalon\\tools\\android_sdk\\platform-tools\\adb.exe -P 5037 -s 192.168.78.104\:5555 forward --remove tcp\:8264' exited with code 1'; Command output: adb.exe: error: device '192.168.78.104:5555' not found
 [35m[UiAutomator2][39m 
 [35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
 [35m[ADB][39m Error sending command, reconnecting device and retrying: shell,settings delete global hidden_api_policy_pre_p_apps;settings delete global hidden_api_policy_p_apps;settings delete global hidden_api_policy
