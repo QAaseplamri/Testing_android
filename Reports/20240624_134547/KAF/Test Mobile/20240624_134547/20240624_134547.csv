@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Test Mobile,,,,24-06-2024 13:45:52,24-06-2024 13:45:53,1.722s,ERROR
-,,,,,,,
-Test Cases/KAF/Login,,,,24-06-2024 13:45:53,24-06-2024 13:45:53,0.143s,ERROR
-,,,,,,,
-Test Cases/KAF/Add Project,,,,24-06-2024 13:45:53,24-06-2024 13:45:53,0.111s,ERROR

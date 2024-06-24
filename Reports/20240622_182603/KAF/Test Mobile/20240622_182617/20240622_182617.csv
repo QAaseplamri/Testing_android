@@ -1,8 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Test Mobile,,,,22-06-2024 18:26:33,22-06-2024 18:26:35,1.841s,FAILED
-,,,,,,,
-Test Cases/KAF/Login,,,,22-06-2024 18:26:33,22-06-2024 18:26:34,1.111s,FAILED
-"startApplication(""C:\Users\0767\Downloads\kaf-debug.apk"", true)",,,,22-06-2024 18:26:34,22-06-2024 18:26:34,0.620s,FAILED
-,,,,,,,
-Test Cases/KAF/Add Project,,,,22-06-2024 18:26:34,22-06-2024 18:26:35,0.363s,FAILED
-"tap(findTestObject(""Object Repository/Mobile/android.widget.ImageView""), 0)",,,,22-06-2024 18:26:34,22-06-2024 18:26:35,0.201s,PASSED

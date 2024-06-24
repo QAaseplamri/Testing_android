@@ -1,4 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Login,,,,24-06-2024 13:38:26,24-06-2024 13:38:27,0.967s,ERROR
-,,,,,,,
-Test Cases/Android Level Up/TC_Login,,,,24-06-2024 13:38:27,24-06-2024 13:38:27,0.198s,ERROR
